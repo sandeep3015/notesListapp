@@ -1,0 +1,42 @@
+.home-page-container {
+    background-color: #ffffff;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.search-input {
+    height: 30px;
+    width: 250px;
+    border: 1px black solid;
+    border-radius: 10px;
+    background-color: transparent;
+    padding-left: 10px;
+    position: sticky;
+}
+
+.notes-list-container {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+.new-notes-button {
+    background-color: #202052;
+    height: 30px;
+    width: 80px;
+    border-radius: 8px;
+    border-width: 0;
+    outline: none;
+    cursor: pointer;
+    font-size: 10px;
+    color: #ffffff;
+    font-family: roboto;
+    margin-top: 20px;
+    align-self: flex-end;
+    font-weight: bold;
+}
